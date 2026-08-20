@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Schematic axial brain MRI slice with mapped white matter hyperintensity regions">
+  <!-- skull/brain outline -->
+  <ellipse cx="200" cy="150" rx="140" ry="115" fill="none" stroke="#5f6b7a" stroke-width="3"/>
+  <!-- interhemispheric fissure -->
+  <line x1="200" y1="40" x2="200" y2="260" stroke="#c9cdd3" stroke-width="2"/>
+  <!-- ventricles -->
+  <path d="M172 130 C 160 140, 160 165, 172 175 C 184 165, 184 140, 172 130 Z" fill="#dfe3e7"/>
+  <path d="M228 130 C 216 140, 216 165, 228 175 C 240 165, 240 140, 228 130 Z" fill="#dfe3e7"/>
+
+  <!-- hyperintensity regions (heatmap blobs) -->
+  <g>
+    <ellipse cx="140" cy="105" rx="20" ry="14" fill="#e8734a" opacity="0.85"/>
+    <ellipse cx="262" cy="112" rx="16" ry="11" fill="#f0a35f" opacity="0.85"/>
+    <ellipse cx="150" cy="205" rx="14" ry="10" fill="#f0a35f" opacity="0.8"/>
+    <ellipse cx="255" cy="200" rx="18" ry="12" fill="#e8734a" opacity="0.85"/>
+    <ellipse cx="200" cy="88" rx="12" ry="8" fill="#c8a659" opacity="0.8"/>
+  </g>
+</svg>

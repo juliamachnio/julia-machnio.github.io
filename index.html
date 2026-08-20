@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Julia Machnio</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="css/fontawesome-all.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Julia Machnio — Ph.D. Candidate at the Pioneer Centre for AI, University of Copenhagen, working on active learning and deep learning for medical imaging.">
+	<link rel="icon" href="images/julia.jpg" type="image/jpeg">
+</head>
+<body>
+	<div class="container hero">
+		<div class="intro">
+			<div class="hero-grid">
+				<div class="hero-text">
+					<h1 class="name"><strong>Julia Machnio</strong></h1>
+					<h2 class="lead">Ph.D. Candidate in Computer Science
+					<br/>Pioneer Centre for AI, <a href="https://di.ku.dk/">University of Copenhagen</a>
+					<br/>Visiting Researcher, <a href="https://cvl.ethz.ch/">Biomedical Imaging Computing Group, ETH Zürich</a></h2>
+					<p>
+						I work on active learning and deep learning for medical imaging, with a focus on predictive theories of
+						sample efficiency and on applying deep learning to brain MRI — including white matter lesion localization
+						and imaging biomarkers for Alzheimer's disease. I am advised by
+						<a href="https://di.ku.dk/english/staff/?pure=en/persons/507028">Prof. Mads Nielsen</a> and
+						<a href="https://mostafaghazi.github.io/">Prof. Mostafa Mehdipour Ghazi</a>.
+						Since October 2025, I have been a visiting researcher in the Biomedical Imaging Computing Group at
+						<a href="https://ethz.ch/">ETH Zürich</a>, hosted by
+						<a href="https://cvl.ethz.ch/people/person-detail.MTUxMDA4.TGlzdC8zMDQ0LC0xNjUyNjE4NjE1.html">Prof. Ender Konukoglu</a>.
+						I hold an M.Sc. and B.Sc. in Biomedical Engineering from AGH University of Science and Technology, Kraków,
+						and I co-organize the <a href="https://fomo25.github.io/">FOMO25</a> and FOMO26 brain MRI foundation model
+						challenges at MICCAI.
+					</p>
+					<div class="link-row">
+						<a class="btn" href="mailto:juma@di.ku.dk" aria-label="Email"><i class="fas fa-envelope"></i></a>
+						<a class="btn" href="files/CV.pdf" aria-label="CV" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i></a>
+						<a class="btn" href="https://scholar.google.com/citations?user=LjgcdC0AAAAJ&hl=en" aria-label="Google Scholar"><i class="fa fa-graduation-cap"></i></a>
+						<a class="btn" href="https://github.com/juliamachnio" aria-label="GitHub"><i class="fab fa-github"></i></a>
+						<a class="btn" href="https://www.linkedin.com/in/juliamachnio" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="hero-photo">
+					<img src="images/julia.jpg" alt="Portrait of Julia Machnio">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Selected Publications -->
+	<div class="container section">
+		<h2 class="section-title">Selected Publications</h2>
+
+		<div class="publication">
+			<div class="pub-image">
+				<img src="images/pub-phase-transition.svg" alt="Diagram of a sharp phase transition in an active learning accuracy curve">
+			</div>
+			<div class="pub-body">
+				<p class="title">A Mechanism-Driven Theory of Phase Transitions in Active Learning</p>
+				<p class="author"><strong>Julia Machnio,</strong> Mads Nielsen, Mostafa Mehdipour Ghazi</p>
+				<p class="publish"><em>European Conference on Computer Vision (ECCV), 2026.</em></p>
+				<a class="btn" href="https://arxiv.org/abs/2607.00144">
+					<i class="fas fa-file-alt"></i>&nbsp;Paper
+				</a>
+				<p>
+					A mechanism-driven theory explaining the sharp, phase-transition-like jumps in accuracy that active
+					learning methods exhibit as the labeling budget grows, identifying the conditions that trigger them.
+				</p>
+			</div>
+		</div>
+
+		<div class="publication">
+			<div class="pub-image">
+				<img src="images/pub-alda.svg" alt="Diagram of a label-budget advisor dial">
+			</div>
+			<div class="pub-body">
+				<p class="title">How Many Labels Are Enough? ALDA: Active Learning Deployment Advisor for Medical Image Classification</p>
+				<p class="author"><strong>Julia Machnio,</strong> Mads Nielsen, Mostafa Mehdipour Ghazi</p>
+				<p class="publish"><em>2nd MICCAI Workshop on Efficient Medical AI (EMA4MICCAI), 2026.</em> <span class="badge badge-oral">Oral</span></p>
+				<a class="btn" href="https://arxiv.org/abs/2608.03511">
+					<i class="fas fa-file-alt"></i>&nbsp;Paper
+				</a>
+				<p>
+					ALDA recommends how many labels a medical image classification project actually needs, turning
+					active learning trajectories into a practical deployment budget instead of an open-ended search.
+				</p>
+			</div>
+		</div>
+
+		<div class="publication">
+			<div class="pub-image">
+				<img src="images/pub-palm.svg" alt="Diagram of a predictive model fitted to scattered active learning accuracy points">
+			</div>
+			<div class="pub-body">
+				<p class="title">To Label or Not to Label: PALM – A Predictive Model for Evaluating Sample Efficiency in Active Learning Models</p>
+				<p class="author"><strong>Julia Machnio,</strong> Mads Nielsen, Mostafa Mehdipour Ghazi</p>
+				<p class="publish"><em>International Conference on Computer Vision (ICCV), 2025.</em></p>
+				<a class="btn" href="https://arxiv.org/abs/2507.15381">
+					<i class="fas fa-file-alt"></i>&nbsp;Paper
+				</a>
+				<p>
+					PALM is a unified, interpretable model that characterizes active learning trajectories through
+					achievable accuracy, coverage efficiency, early-stage performance, and scalability, validated on
+					CIFAR-10/100 and ImageNet-50/100/200.
+				</p>
+			</div>
+		</div>
+
+		<div class="publication">
+			<div class="pub-image">
+				<img src="images/pub-wmh.svg" alt="Schematic axial brain MRI slice with mapped white matter hyperintensity regions">
+			</div>
+			<div class="pub-body">
+				<p class="title">Deep Learning-Based Regional White Matter Hyperintensity Mapping as a Robust Biomarker for Alzheimer's Disease</p>
+				<p class="author"><strong>Julia Machnio,</strong> Mads Nielsen, Mostafa Mehdipour Ghazi</p>
+				<p class="publish"><em>SPIE Medical Imaging Conference, 2026.</em></p>
+				<a class="btn" href="https://arxiv.org/abs/2511.14588">
+					<i class="fas fa-file-alt"></i>&nbsp;Paper
+				</a>
+				<p>
+					A deep learning pipeline that maps white matter hyperintensities to specific brain regions,
+					producing region-wise burden estimates that hold up as robust imaging biomarkers for Alzheimer's disease.
+				</p>
+			</div>
+		</div>
+
+		<div class="publication">
+			<div class="pub-image">
+				<img src="images/pub-multimodal-wmh.svg" alt="Diagram of two MRI modalities fused into one white matter lesion segmentation">
+			</div>
+			<div class="pub-body">
+				<p class="title">Towards Scalable and Robust White Matter Lesion Localization via Multimodal Deep Learning</p>
+				<p class="author"><strong>Julia Machnio,</strong> Mads Nielsen, Mostafa Mehdipour Ghazi</p>
+				<p class="publish"><em>2nd Sorbonne-Heidelberg Workshop on AI in Medicine, 2025.</em> <span class="badge badge-oral">Oral</span></p>
+				<a class="btn" href="https://arxiv.org/abs/2506.22041">
+					<i class="fas fa-file-alt"></i>&nbsp;Paper
+				</a>
+				<p>
+					A framework for white matter lesion segmentation and localization that works directly in native space
+					across single- and multi-modal MRI inputs, including a modality-interchangeable setup for missing sequences.
+				</p>
+			</div>
+		</div>
+		<!-- End of selected publications -->
+	</div>
+
+	<!-- Other Publications -->
+	<div class="container section">
+		<h2 class="section-title">Other Publications &amp; Preprints</h2>
+		<ul class="item-list">
+			<li><strong>Deep Learning for Localization of White Matter Lesions in Neurological Diseases.</strong> J. Machnio, M. Nielsen, M. M. Ghazi. <em>Northern Lights Deep Learning Conference (NLDL), 2025.</em> <span class="badge badge-oral">Oral</span> — <a href="https://openreview.net/forum?id=ea0YJaJShO" target="_blank">OpenReview</a></li>
+			<li><strong>Towards Brain MRI Foundation Models for the Clinic: Findings from the FOMO25 Challenge.</strong> A. Munk, ..., J. Machnio, et al. <em>ArXiv, 2026.</em> — <a href="https://arxiv.org/abs/2604.11679" target="_blank">arXiv:2604.11679</a></li>
+			<li><strong>A Large-Scale Heterogeneous 3D Magnetic Resonance Brain Imaging Dataset for Self-Supervised Learning.</strong> A. Munk, S. Cerri, J. Ambsdorf, J. Machnio, et al. <em>ArXiv, 2025.</em> — <a href="https://arxiv.org/abs/2506.14432" target="_blank">arXiv:2506.14432</a></li>
+			<li><strong>MRI Embeddings Complement Clinical Predictors for Cognitive Decline Modeling in Alzheimer's Disease Cohorts.</strong> N. Putera, D. Vilet Rodríguez, N. Videcrantz, J. Machnio, M. M. Ghazi. <em>SPIE Medical Imaging Conference, 2026.</em></li>
+			<li><strong>Yucca: A Deep Learning Framework for Medical Image Analysis.</strong> S. N. Llambias, J. Machnio, A. Munk, J. Ambsdorf, M. Nielsen, M. M. Ghazi. <em>ArXiv, 2024.</em> — <a href="https://arxiv.org/abs/2407.19888" target="_blank">arXiv:2407.19888</a></li>
+			<li><strong>MICCAI-CDMRI 2023 QuantConn Challenge Findings on Achieving Robust Quantitative Connectivity through Harmonized Preprocessing of Diffusion MRI.</strong> N. R. Newlin, et al. <em>MELBA, 2024.</em> — <a href="https://arxiv.org/abs/2411.09618" target="_blank">arXiv:2411.09618</a></li>
+			<li><strong>Introducing QuantConn: Overcoming Challenging Diffusion Acquisitions with Harmonization.</strong> N. R. Newlin, et al. <em>MICCAI Workshop on Computational Diffusion MRI (CDMRI), 2024.</em></li>
+		</ul>
+		<p class="footer-note">Full and up-to-date list on <a href="https://scholar.google.com/citations?user=LjgcdC0AAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+	</div>
+
+	<!-- Education & Experience -->
+	<div class="container section">
+		<h2 class="section-title">Education &amp; Experience</h2>
+		<div class="split">
+			<div>
+				<h3 class="section-subtitle">Education</h3>
+				<ul class="item-list">
+					<li><strong>Ph.D. in Computer Science</strong>, Pioneer Centre for AI, University of Copenhagen, 2024 – 2026. Supervised by Prof. Mads Nielsen and Prof. Mostafa Mehdipour Ghazi.</li>
+					<li><strong>Visiting Researcher</strong>, Biomedical Imaging Computing Group, ETH Zürich, Oct. 2025 – March 2026. Hosted by Prof. Ender Konukoglu.</li>
+					<li><strong>M.Sc., Biomedical Engineering</strong>, AGH University of Science and Technology, Kraków, 2022 – 2023. Thesis: <em>MRI data segmentation with deep learning using large-scale computing</em> — grade 5.0/5.0 with honors.</li>
+					<li><strong>Erasmus+</strong>, Grenoble INP (Phelma), Grenoble, 2021.</li>
+					<li><strong>B.Sc., Biomedical Engineering</strong>, AGH University of Science and Technology, Kraków, 2018 – 2022. Thesis: <em>Microstructural brain measures from diffusion MRI using deep learning</em>.</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="section-subtitle">Experience</h3>
+				<ul class="item-list">
+					<li><strong>Junior Scientific Researcher</strong>, Sano Centre for Computational Medicine, Kraków. Sep. – Dec. 2023.</li>
+					<li><strong>ServiceNow Developer</strong>, Capgemini Sp. z o.o., Kraków. Jul. 2022 – Dec. 2023.</li>
+					<li><strong>Junior ServiceNow Developer</strong>, Capgemini Sp. z o.o., Kraków. Aug. 2021 – Jul. 2022.</li>
+					<li><strong>Teaching Assistant</strong>, Deep Learning Course, University of Copenhagen. 2024 – 2025.</li>
+				</ul>
+				<h3 class="section-subtitle" style="margin-top:20px;">Reviewing</h3>
+				<p>Journal of Alzheimer's Disease, Journal of Biochemistry and Bioinformatics, MICCAI'26, ECCV'26, NeurIPS'26.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- OTHER WORK -->
+	<div class="container section">
+		<h2 class="section-title">Academic Activities &amp; Awards</h2>
+		<div class="split">
+			<div>
+				<h3 class="section-subtitle">Talks &amp; Academic Activities</h3>
+				<ul class="item-list">
+					<li>Oral presentation at the <strong>Learning Theory Workshops</strong>, Copenhagen, 2026.</li>
+					<li><strong>FOMO26 Challenge Co-Organizer</strong>, 29th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Strasbourg, 2026.</li>
+					<li><strong>FOMO25 Challenge Co-Organizer</strong>, 28th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), Daejeon, 2025.</li>
+					<li>Poster presentation, Danish Digitalization, Data Science and AI Conference, Nyborg, 2024.</li>
+					<li>Poster presentation, Summer School on Biomedical Image Analysis — from Acquisition to Fairness and Bias, Svendborg, 2024.</li>
+					<li>Poster presentation, Northern Lights Deep Learning Winter School, Tromsø, 2024.</li>
+					<li>Poster presentation, International Computer Vision Summer School, Sicily, 2023.</li>
+					<li>Poster presentation, International Neuro AI Summer School, Lipari, 2023.</li>
+					<li>Abstract presentation, XVth HPC Users' Conference – KUKDM, Zakopane, 2023.</li>
+					<li>Poster presentation, XXXIst National Conference "Human and His Environment", Kielce, 2022.</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="section-subtitle">Scholarships &amp; Awards</h3>
+				<ul class="item-list">
+					<li><strong>1st place</strong>, XXVth "AGH Diamonds" contest for best Master's thesis (theoretical theses category), AGH University of Science and Technology, 2024.</li>
+					<li><strong>1st place</strong>, TRUMPF Hüttinger's National Competition for the Best Master Thesis defended in 2023.</li>
+					<li><strong>2nd place</strong>, Polish Society for Biomedical Engineering Competition for the Best Master Thesis defended in 2023.</li>
+					<li><strong>AGH University Scholarship</strong>, Top-Performing Student, Class of 2022.</li>
+					<li><strong>3rd place</strong>, TRUMPF Hüttinger's National Competition for the Best Bachelor Thesis defended in 2022.</li>
+					<li><strong>1st place</strong>, IEEE &amp; AGH Faculty of Electronics, Robotics, Informatics, and Biomedical Engineering's Competition for the Best Bachelor Thesis, 2022.</li>
+					<li><strong>1st place</strong>, IEEE &amp; 4 Science Institute's National Contest for the Most Scientific Bachelor Thesis, 2022.</li>
+					<li><strong>3rd place</strong>, IEEE, 4 Science Institute &amp; GovTech Poland's National Contest for Best AI-Related Bachelor Theses, 2022.</li>
+					<li><strong>SANO Master's Scholarship</strong>, SANO Centre for Computational Medicine, 2022.</li>
+					<li><strong>AGH Rector's Scholarship</strong>, top 10% of students by grades, 2019, 2020, 2021, 2022.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div class="container section">
+		<h2 class="section-title">Skills</h2>
+		<ul class="item-list">
+			<li><strong>Languages:</strong> Polish (native), English (fluent), French (intermediate), German (intermediate)</li>
+			<li><strong>Programming:</strong> Python, MATLAB, LaTeX, C/C++, LabVIEW</li>
+			<li><strong>Deep Learning:</strong> PyTorch, TensorFlow</li>
+			<li><strong>Medical Imaging:</strong> FSL, FreeSurfer</li>
+			<li><strong>Other:</strong> Bash, SLURM, Git, Linux, HPC clusters</li>
+		</ul>
+	</div>
+
+	<footer class="container">
+		<p class="footer-note">© 2026 Julia Machnio. Built with the layout of <a href="https://sebulo.github.io/" target="_blank">sebulo.github.io</a>.</p>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Diagram of a sharp phase transition in an active learning accuracy curve">
+  <defs>
+    <clipPath id="pt-clip"><rect x="40" y="30" width="320" height="220" rx="4"/></clipPath>
+  </defs>
+  <!-- axes -->
+  <line x1="40" y1="250" x2="370" y2="250" stroke="#5f6b7a" stroke-width="2"/>
+  <line x1="40" y1="250" x2="40" y2="24" stroke="#5f6b7a" stroke-width="2"/>
+  <text x="205" y="284" text-anchor="middle" font-family="Source Sans 3, Arial, sans-serif" font-size="15" fill="#5f6b7a">labeled samples</text>
+  <text x="24" y="140" text-anchor="middle" font-family="Source Sans 3, Arial, sans-serif" font-size="15" fill="#5f6b7a" transform="rotate(-90 24 140)">accuracy</text>
+
+  <!-- pre-transition plateau -->
+  <path d="M50 226 C 100 224, 150 222, 188 220" fill="none" stroke="#c9cdd3" stroke-width="3" stroke-dasharray="1 8" stroke-linecap="round"/>
+  <!-- sharp transition -->
+  <path d="M188 220 C 205 210, 212 100, 226 66" fill="none" stroke="#0f6b5b" stroke-width="4" stroke-linecap="round"/>
+  <!-- post-transition plateau -->
+  <path d="M226 66 C 270 50, 320 44, 360 42" fill="none" stroke="#0f6b5b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- transition marker -->
+  <line x1="207" y1="30" x2="207" y2="250" stroke="#c8a659" stroke-width="2" stroke-dasharray="5 6"/>
+  <circle cx="207" cy="140" r="6" fill="#c8a659"/>
+  <text x="216" y="132" font-family="Source Sans 3, Arial, sans-serif" font-size="14" font-weight="600" fill="#6f4a00">critical point</text>
+</svg>

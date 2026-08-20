@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Diagram of a label-budget advisor dial pointing to a recommended labeling budget">
+  <!-- dial -->
+  <path d="M80 220 A 120 120 0 0 1 320 220" fill="none" stroke="#ddd7cd" stroke-width="18" stroke-linecap="round"/>
+  <path d="M80 220 A 120 120 0 0 1 244 108" fill="none" stroke="#0f6b5b" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- ticks -->
+  <g stroke="#5f6b7a" stroke-width="2">
+    <line x1="80" y1="220" x2="66" y2="220"/>
+    <line x1="200" y1="86" x2="200" y2="70"/>
+    <line x1="320" y1="220" x2="334" y2="220"/>
+  </g>
+  <text x="60" y="248" font-family="Source Sans 3, Arial, sans-serif" font-size="13" fill="#5f6b7a">0%</text>
+  <text x="310" y="248" font-family="Source Sans 3, Arial, sans-serif" font-size="13" fill="#5f6b7a">100%</text>
+  <text x="176" y="60" font-family="Source Sans 3, Arial, sans-serif" font-size="13" fill="#5f6b7a">labels</text>
+
+  <!-- needle pointing to recommended budget -->
+  <line x1="200" y1="220" x2="255" y2="130" stroke="#6f4a00" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="200" cy="220" r="10" fill="#c8a659" stroke="#6f4a00" stroke-width="2"/>
+
+  <!-- recommended zone marker -->
+  <circle cx="244" cy="108" r="7" fill="#ffe8b3" stroke="#c8a659" stroke-width="2"/>
+</svg>

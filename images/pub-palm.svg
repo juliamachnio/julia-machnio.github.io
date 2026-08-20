@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Diagram of a predictive model fitted to scattered active learning accuracy points">
+  <line x1="40" y1="250" x2="370" y2="250" stroke="#5f6b7a" stroke-width="2"/>
+  <line x1="40" y1="250" x2="40" y2="24" stroke="#5f6b7a" stroke-width="2"/>
+  <text x="205" y="284" text-anchor="middle" font-family="Source Sans 3, Arial, sans-serif" font-size="15" fill="#5f6b7a">labeled samples</text>
+  <text x="24" y="140" text-anchor="middle" font-family="Source Sans 3, Arial, sans-serif" font-size="15" fill="#5f6b7a" transform="rotate(-90 24 140)">accuracy</text>
+
+  <!-- fitted logistic curve (PALM) -->
+  <path d="M52 234 C 120 232, 165 210, 200 140 C 232 78, 280 52, 360 46" fill="none" stroke="#0f6b5b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- empirical scatter points -->
+  <g fill="#c8a659" stroke="#6f4a00" stroke-width="1">
+    <circle cx="58" cy="228" r="6"/>
+    <circle cx="96" cy="230" r="6"/>
+    <circle cx="140" cy="210" r="6"/>
+    <circle cx="178" cy="168" r="6"/>
+    <circle cx="212" cy="118" r="6"/>
+    <circle cx="252" cy="80" r="6"/>
+    <circle cx="298" cy="58" r="6"/>
+    <circle cx="344" cy="48" r="6"/>
+  </g>
+</svg>
