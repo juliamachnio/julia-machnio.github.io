@@ -200,6 +200,13 @@ h1.name {
 	padding: 0;
 }
 
+.publication .pub-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 160px;
+}
+
 .publication:first-of-type {
 	border-top: 0;
 }
