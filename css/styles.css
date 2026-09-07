@@ -145,6 +145,12 @@ h1.name {
 	height: var(--icon-size);
 }
 
+.link-row .btn svg {
+	display: inline-block;
+	width: var(--icon-size);
+	height: var(--icon-size);
+}
+
 .section {
 	padding-top: 16px;
 }
